@@ -136,7 +136,7 @@ function pesquisarOutros() {
     for (i = 0; i < listaOutros.length; i++) {
         outros.innerHTML +=
             '<div class="card">' +
-                '<h2 class="cardh2>' + listaOutros[i].nomePet + '</h2>' +
+                '<h2 class="cardh2">' + listaOutros[i].nomePet + '</h2>' +
                 '<p class="cardp">' + listaOutros[i].especiePet + '</p>' +
                 '<p class="cardp">' + listaOutros[i].racaPet + '</p>' +
                 '<p class="cardp">' + listaOutros[i].pelagemPet + '</p>' +
